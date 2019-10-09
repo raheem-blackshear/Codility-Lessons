@@ -3,6 +3,8 @@ using namespace std;
 typedef long long INT;
 typedef __int64 INT64;
 
+### Here is master branch ###
+
 int solution(vector<int> &A) {
     int sz = A.size();
     if (sz < 3) return 0;
@@ -12,3 +14,5 @@ int solution(vector<int> &A) {
     }
     return 0;
 }
+
+### Here is master branch ###
