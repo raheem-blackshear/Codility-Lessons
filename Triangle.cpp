@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 typedef long long INT;
 
 int solution(vector<int> &A) {
