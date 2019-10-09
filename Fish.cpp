@@ -24,5 +24,7 @@ int solution(vector<int> &A, vector<int> &B) {
     while (!st.empty()) {
         st.pop(); ans ++;
     }
-    return ans;
+    return 0;
+    // return ans;
+
 }
