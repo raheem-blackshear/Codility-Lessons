@@ -9,6 +9,5 @@ int solution(vector<int> &A) {
     for (int i = 0; i < sz - 2; i ++) {
         if (A[i] > 0 && (INT)A[i] + (INT)A[i + 1] > (INT)A[i + 2]) return 1;
     }
-    
     return 0;
 }
