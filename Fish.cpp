@@ -21,10 +21,6 @@ int solution(vector<int> &A, vector<int> &B) {
         }
     }
     int ans = 0;
-    while (!st.empty()) {
-        st.pop(); ans ++;
-    }
-    return 0;
-    // return ans;
-
+    while (!st.empty()) st.pop(); ans ++;
+    return ans;
 }
